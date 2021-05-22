@@ -86,7 +86,7 @@ namespace Cambio
         {
             var valores = new Dictionary<Moedas, decimal>();
             valores.Add(Moedas.Euro, 1 / (Iene * Euro));
-            valores.Add(Moedas.Real, 5.26m);
+            valores.Add(Moedas.Real, 0.049mm);
             valores.Add(Moedas.LibraE, 1 / (Iene * LibraEsterlina));
             valores.Add(Moedas.Dolar, 1 / (Iene * Dolar));
             valores.Add(Moedas.FrancoS, 1 / (Iene * FrancoSuico));
@@ -98,7 +98,7 @@ namespace Cambio
         {
             var valores = new Dictionary<Moedas, decimal>();
             valores.Add(Moedas.Euro, FrancoSuico / Euro);
-            valores.Add(Moedas.Real, 5.26m);
+            valores.Add(Moedas.Real, FrancoSuico);
             valores.Add(Moedas.LibraE, FrancoSuico / LibraEsterlina);
             valores.Add(Moedas.Iene, FrancoSuico * Iene);
             valores.Add(Moedas.Dolar, FrancoSuico / Dolar);
@@ -110,7 +110,7 @@ namespace Cambio
         {
             var valores = new Dictionary<Moedas, decimal>();
             valores.Add(Moedas.Euro, DolarCanadense / Euro);
-            valores.Add(Moedas.Real, 5.26m);
+            valores.Add(Moedas.Real, DolarCanadense);
             valores.Add(Moedas.LibraE, DolarCanadense / LibraEsterlina);
             valores.Add(Moedas.Iene, DolarCanadense * Iene);
             valores.Add(Moedas.FrancoS, DolarCanadense / FrancoSuico);
@@ -122,7 +122,7 @@ namespace Cambio
         {
             var valores = new Dictionary<Moedas, decimal>();
             valores.Add(Moedas.Euro, Yuan / Euro);
-            valores.Add(Moedas.Real, 5.26m);
+            valores.Add(Moedas.Real, 0.83m);
             valores.Add(Moedas.LibraE, Yuan / LibraEsterlina);
             valores.Add(Moedas.Iene, Iene / Yuan);
             valores.Add(Moedas.FrancoS, Yuan / FrancoSuico);
